@@ -38,14 +38,9 @@ export class MenuComponent implements OnInit {
             icon: 'pi pi-cog',
             items: [
                 {
-                    label: 'Angular',
-                    icon: 'pi pi-external-link',
-                    url: 'http://angular.io'
-                },
-                {
-                    label: 'Router',
+                    label: 'Custom Pipes',
                     icon: 'pi pi-upload',
-                    routerLink: '/fileupload'
+                    routerLink: 'custom'
                 }
             ]
         }
